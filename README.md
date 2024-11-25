@@ -35,7 +35,7 @@ python3 scripts/generateGroundTruth.py
 ```
 
 ### Model file
-In our work, we utilize the 4-bit quantized and mlx-converted version of the Mistral-7B-Instruct-v0.2 model. To replicate our test results accurately, please download the mlx-community/Mistral-7B-Instruct-v0.2-4bit-mlx file from the mlx-community on Hugging Face and ensure it is placed in the specified path.
+In our work, we use the 4-bit quantized and MLX-converted version of the Mistral-7B-Instruct-v0.2 model. To accurately replicate our test results, download the mlx-community/Mistral-7B-Instruct-v0.2-4bit-mlx file from the MLX community repository on Hugging Face and place it in the specified path. Alternatively, you can use one of the Python bash examples below to automate the download.
 
 ### Adapters
 The generated QLoRA adapters are saved under the `adapters/` directory. 
